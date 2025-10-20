@@ -2,7 +2,6 @@
 
 **Masters Project - Digital Systems Verification**  
 **Author**: Dharini Patel  
-**Institution**: [Your University]  
 **Course**: Advanced Digital Verification / VLSI Design
 
 ---
