@@ -1,0 +1,66 @@
+# Simulation directories
+sim/
+work/
+transcript
+*.log
+*.wlf
+
+# Waveform files
+*.vcd
+*.fst
+*.fsdb
+*.shm/
+*.trn
+*.dsn
+
+# Simulator specific
+*.db
+*.bak
+xsim.dir/
+xcelium.d/
+INCA_libs/
+csrc/
+simv*
+ucli.key
+vc_hdrs.h
+DVEfiles/
+*.vpd
+*.vcd+
+*.key
+*.daidir/
+
+# Coverage files
+*.ucdb
+cov_work/
+covhtml/
+*.cov
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+*.tmp
+*.temp
+
+# Results (keep directory structure, ignore logs)
+results/*.log
+results/*.rpt
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+*.o
+*.so
+*.a
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Personal notes and reference files (not for git)
+personal/
+
