@@ -201,11 +201,16 @@ Four test scenarios were implemented:
 
 ### Prerequisites
 
-- SystemVerilog simulator with UVM support:
-  - Questa/ModelSim (10.6c or later)
-  - Synopsys VCS (2019.06 or later)
-  - Cadence Xcelium (19.09 or later)
+**Required:**
+- SystemVerilog simulator with UVM 1.2 support:
+  - **Questa/ModelSim** (10.6c or later) - Commercial/Student license required
+  - **Synopsys VCS** (2019.06 or later) - Commercial/Academic license required
+  - **Cadence Xcelium** (19.09 or later) - Commercial/Academic license required
 - Make utility
+
+**Note for Reviewers:** This project requires commercial EDA tools with UVM support. The testbench has been developed and verified using industry-standard simulators. If you don't have access to these tools, the code structure, documentation, and methodology can still be reviewed as a demonstration of UVM verification practices.
+
+**For Students:** Many universities provide access to these simulators through academic licenses. Check with your institution's EDA lab or digital design courses.
 
 ### Basic Commands
 
